@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 105, 233, 0.8),rgba(0, 105, 233, 0.8)), url(/nike-site/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    height: 12%;
+}
+
+.navbarleft {
+    flex-basis: 70%;
+    background:rgb(200, 140, 140);
+    border-bottom: 1 px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbarinner {
+    display:flex;
+    align-items: center;
+    padding: 45px 50px 10px 50px;
+}
+
+.navbarright {
+    flex-basis: 30%;
+    background:#fff;
+}
