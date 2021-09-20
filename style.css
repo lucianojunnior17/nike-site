@@ -8,6 +8,7 @@
     background-image: linear-gradient(rgba(0, 105, 233, 0.8),rgba(0, 105, 233, 0.8)), url(/nike-site/img/background.jpg);
     background-position: center;
     background-size: cover;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -17,7 +18,7 @@
 
 .navbarleft {
     flex-basis: 70%;
-    background:rgb(200, 140, 140);
+    background:rgb(255, 140, 140);
     border-bottom: 1 px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -25,6 +26,20 @@
     display:flex;
     align-items: center;
     padding: 45px 50px 10px 50px;
+}
+
+.navbarinner ul {
+    margin-left:20px;
+    z-index: 2;
+}
+
+.navbarinner ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+.navbarinner ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbarright {
