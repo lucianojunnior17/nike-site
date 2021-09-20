@@ -123,7 +123,7 @@
 
 .contentright img {
     top: 10%;
-    left: 25%;
+    left: 55%;
     position: absolute;
 }
 
@@ -209,10 +209,23 @@
 
 .social ul li {
     list-style: none;
-    margin: 20px 15px;display: inline-block;
+    margin: 200px 15px;
+    display: inline-block;
 }
 
 .social ul li a {
     text-decoration: none;
     color: #999;
+}
+
+.social img {
+    display: inline-block;
+    margin: 120px;
+    margin-top: 160px;
+
+}
+
+#instagram {
+    display:float;
+    margin: 160px;
 }
