@@ -75,4 +75,48 @@
     left: 15%;
     top:20%;
     position: relative;
+    color: lightblue;
+    opacity: 0.5;
+}
+
+.uppertext h1 {
+    font-size:150px;
+    margin-left: 150px;
+    line-height:90px;
+    font-style: italic;
+}
+
+.uppertext h2 {
+    font-size:90px;
+}
+
+.bottontext {
+    left: 55%;
+    bottom: 12%;
+    position: absolute;
+    color:lightblue;
+    opacity: 0.5;
+}
+
+.bottontext h1 {
+    font-size:100px;
+    margin-left:100px;
+    line-height:50px;
+}
+
+.bottontext h2 {
+    font-size:60px;
+}
+
+.bottontext h3 {
+    font-size:40px;
+    margin-left:225px;
+    line-height:10px;
+}
+
+.contentleft img {
+    top: -20%;
+    right: -27%;
+    position: absolute;
+    z-index: 1;
 }
