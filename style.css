@@ -5,7 +5,7 @@
 
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 105, 233, 0.8),rgba(0, 105, 233, 0.8)), url(/nike-site/img/background.jpg);
+    background-image: linear-gradient(rgba(0, 105, 233, 0.8),rgba(0, 105, 233, 0.8)), url(img/background.jpg);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
@@ -18,7 +18,7 @@
 
 .navbarleft {
     flex-basis: 70%;
-    background:rgb(255, 140, 140);
+    background:rgb(140, 140, 140, 0.1);
     border-bottom: 1 px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -55,4 +55,24 @@
     display: inline-block;
     list-style: none;
     margin-left: 40px;
+}
+.content {
+    display: flex;
+    height: 88%;
+}
+
+.contentleft {
+    flex-basis:70%;
+    position: relative;
+}
+
+.contentright {
+    flex-basis:30%;
+    position: relative;
+    background-color: #fff;
+}
+.uppertext {
+    left: 15%;
+    top:20%;
+    position: relative;
 }
