@@ -46,3 +46,13 @@
     flex-basis: 30%;
     background:#fff;
 }
+.navbarright ul {
+    float: right;
+    padding: 35px 50px 10px;
+}
+
+.navbarright ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
